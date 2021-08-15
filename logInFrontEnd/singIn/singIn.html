@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sing in</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+    <script src="../jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <h1>sing in</h1><br>
+    <form id="form"  class="was-validated">
+        <div class="form-group">
+            <label for="username">username:</label>
+            <input type="text" id="username" class="form-control" placeholder="Enter username" name="username" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div><br>
+        <div class="form-group">
+            <label for="password">password:</label>
+            <input type="password" id="password" class="form-control" placeholder="Enter password" name="password" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div><br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <p class="font-weight-bold">have no account? <span><a href="../singUp/singUp.html">sing up</a></span></p>
+    <br>
+</div>
+
+</body>
+</html>
