@@ -1,2 +1,2 @@
 # loginpage
-a web page for simple log-in and sing-in
+a web page for simple sign-in and sing-up
